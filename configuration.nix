@@ -19,7 +19,7 @@
   users.users.cog25 = {
     isNormalUser = true;
     description = "cog25";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "libvirtd" ];
     # packages = with pkgs; []; # Check `home.nix`
   };
 
