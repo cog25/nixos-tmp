@@ -31,8 +31,9 @@
     wget
     coreutils-full
     xdg-utils
-
+    miraclecast
     git
+
 
     # GUI
     alacritty
