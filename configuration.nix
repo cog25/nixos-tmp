@@ -7,7 +7,7 @@
       ./modules/i18n.nix
       ./modules/network.nix
       ./modules/bootloader.nix
-
+      ./modules/virt.nix
       ./modules/hyprland
     ];
 
@@ -22,8 +22,6 @@
     extraGroups = [ "networkmanager" "wheel" ];
     # packages = with pkgs; []; # Check `home.nix`
   };
-
-
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget
